@@ -1,0 +1,52 @@
+@media screen and (max-width:750px) {
+    *{
+        /* overflow-x: hidden; */
+
+    }
+
+    .header{
+        height: 100px;
+    }
+
+    .headerpic{
+        margin-left: 0.5rem;
+        height: 60px;
+        width: 150px;
+    }
+
+    .headerpic img{
+        height: 50px;
+    }
+
+    .tab{
+        display: none;
+    }
+    
+    .row1{
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    .row1 .header1{
+        /* border: 1px solid green; */
+        width: 80%;
+        height: 100px;
+        margin-top: 3rem;
+    }
+
+    .row1 h1{
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .row1 .body{
+        /* border: 1px solid red; */
+        width: 92%;
+        height: 270px;
+    }
+
+    .pic{
+        width: 68%;
+        height: 55px;
+    }
+}
