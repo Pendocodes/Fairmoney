@@ -27,11 +27,12 @@
 }
 
 .tab{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 60%;
     width: 530px;
     justify-self: right;
     margin-right: 17rem;
+    font-weight: normal;
     /* display: flex; */
 }
 
@@ -112,45 +113,624 @@
 }
 
 .pic{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 22%;
     height: 60px;
     justify-self: center;
 }
 
-.row1 img{
-    /* margin-top: 0.5rem; */
-}
-.pic img  :hover{
-    /* margin-bottom: 1rem; */
-}
-
 .subrow1{
     width: 88%;
-    height: 120px;
-    border: 2px solid red;
+    height: 88px;
+    /* border: 1px solid red; */
     justify-self: center;
-    /* margin-top: 2rem; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 0.5rem;
 }
 
 .logo{
-    width: 35%;
-    height: 100px;
-    border: 1px solid green;
-    /* margin-left: 5.2rem; */
+    /* border: 1px solid green; */
+    height: inherit;
+    width: 40%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.logo1{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+
+.liby{
+    height: 13px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.logo p{
+    font-size: xx-small;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
 }
 
 .cbn{
-    width: 60%;
-    height: 90%;
-    border: 1px solid blue;
-    /* justify-self: self-end; */
+    height: calc(80px - 13px);
+    width: 100%;
+    /* border: 1px solid red; */
 }
-.QRcode{
+
+.logo2{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid purple; */
+}
+
+.deposits{
+    height: 13px;
+    width: 100%;
+    /* border: 1px solid rgb(0, 217, 255); */
+}
+
+
+.ndic{
+    height: calc(80px - 13px);
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.QR{
+    border: 1px solid rgb(240, 236, 236);
+    height: 100%;
     width: 35%;
+    align-self: center;
+    display: flex;
+    padding-left: 1rem;
+    border-radius: 6px;
+}
+
+.code{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.QR .code img{
+    height: 60px;
+    align-self: center;
+}
+
+.scan{
+    height: inherit;
+    width: 82%;
+    /* border: 1px solid blue; */
+    align-self: center;
+    margin-left: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.scan p{
+    font-family: sans-serif;
+    font-size: small;
+    color: grey;
+}
+
+.row2{
+    border: 2px solid blue;
+    width: 100%;
+    height: 740px;
+    margin-top: 5rem;
+    background-color: rgba(245, 245, 245, 0.699);
+    border-radius: 25px;
+}
+
+.box{
+    /* border: 1px solid red; */
+    width: 88%;
+    height: 310px;
+    justify-self: center;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trusted{
+    /* border: 1px solid green; */
+    height: 300px;
+    width: 39%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trusted .head{
     height: 100px;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.trusted h1{
+    font-family: sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.850);
+}
+
+.trusted .customer{
+    height: 120px;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin-top: 3rem;
+}
+
+.trusted p{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(90, 90, 90);
+}
+
+.million{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: rgb(245, 241, 253)
+}
+
+
+.million:hover{
+    background-color: blueviolet;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+.million .app{
+    width: 280px;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.million p{
+    font-family: sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.two{
+    width: 200px;
+    height: 130px;
+    /* border: 1px solid green; */
+    margin-left: 1.5rem;
+    margin-top: 5rem;
+}
+
+.two h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+.two p{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.over{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: rgb(236, 252, 240);
+}
+
+.over:hover{
+    background-color: rgb(4, 131, 4);
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+
+.ov{
+    /* border: 1px solid red; */
+    width: 280px;
+    height: 130px;
+    margin-left: 1.5rem;
+    margin-top: 9rem;
+}
+
+.ov p:nth-child(1) {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.ov h4{
+    font-size: 50px;
+    font-family: 'Arial Black', 'Helvetica Bold', sans-serif;
+
+}
+
+.ov p:nth-of-type(2){
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.box2{
+    /* border: 1px solid red; */
+    width: 88%;
+    height: 300px;
+    justify-self: center;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.billion{
+    /* border: 1px solid green; */
+    height: 300px;
+    width: 39%;
+    border-radius: 15px;
+    background-color: rgb(236, 252, 240)
+}
+
+.billion:hover{
+    background-color: rgb(3, 160, 3);
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+
+.billion .more{
+    /* border: 1px solid blue; */
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    width: 300px;
+    height: 25px;
+}
+
+.billion .more p{
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.billion .money{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 180px;
+    margin-left: 1.5rem;
+}
+
+.billion .cash{
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 90px;
+}
+
+.billion .bi{
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 90px;
+}
+
+.billion h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85px;
+}
+
+.billion .saved{
+    /* border: 1px solid blue; */
+    margin-left: 1.5rem;
+    width: 300px;
+    height: 25px;
+}
+.billion .saved p{
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.minute{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: rgba(255, 0, 0, 0.048);
+}
+
+.minute:hover{
+    background-color: rgb(231, 105, 96);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+.loans{
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 50px;
+    line-height: 25px;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.minute .loans p{
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.minute .min{
+    /* border: 1px solid blue; */
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: end;
+    margin-left: 1.5rem;
+    margin-top: 7rem;
+}
+
+.minute .min h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    justify-self: end;
+    color: rgba(165, 42, 42, 0.719);
+}
+
+.minute .min p{
+    font-family: sans-serif;
+    margin-left: 7px;
+    margin-bottom: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.monthly{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 310px;
+    border-radius: 15px;
+    background-color: rgba(31, 31, 248, 0.034);
+}
+
+.monthly:hover{
+    background-color: rgb(75, 75, 252);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.ove{
+    /* border: 1px solid red; */
+    width: 280px;
+    height: 130px;
+    margin-left: 1.5rem;
+    margin-top: 9rem;
+}
+
+.ove p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.ove h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 0.5rem;
+}
+
+.ove .card{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 250px;
+    margin-top: 0.5rem;
+}
+
+.ove .card p{
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.row3{
+    border: 2px solid blue;
+    width: 100%;
+    height: 740px;
+    margin-top: 5rem;
+    background-color: rgba(173, 204, 209, 0.253);
+}
+
+.products{
+    border: 1px solid red;
+    width: 500px;
+    height: 100px;
+    margin-top: 5rem;
+    justify-self: center;
+}
+
+.products h4{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.squares{
+    border: 1px solid orange;
+    height: 450px;
+    width: 97.6%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.squares a{
+    text-decoration: none;
+}
+
+.squares img{
+    height: 500px;
+    rotate: 345deg;
+    margin-left: 4rem;
+    margin-top: -5rem;
+}
+.personal{
+    border: 1px solid blue;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.ploans{
+    border: 1px solid red;
+    width: 300px;
+    height: 45px;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+
+.ploans h3{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.personal .you{
+    width: 330px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.personal .you p{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.learn1{
+    /* border: 1px solid darkcyan; */
+    height: 60px;
+    width: 140px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    background-color: #37a477;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn1:hover{
+    margin-top: 1.5rem;
+    transition: 0.5s;
+}
+
+.learn1 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.business{
     border: 1px solid green;
+    height: 450px;
+    width: 450px;
+    margin-left: 2rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.take{
+    width: 330px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.take p{
+    font-family: sans-serif ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.learn2{
+     /* border: 1px solid red; */
+    height: 60px;
+    width: 140px;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    background-color: #1e1f26;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn2:hover{
+    margin-top: 1.5rem;
+    transition: 0.5s;
+}
+
+.learn2 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.fairlock{
+    border: 1px solid red;
+    height: 450px;
+    width: 350px;
+    margin-left: 2rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.achieve{
+    width: 310px;
+    height: 100px;
+    border: 1px solid blue;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.achieve p{
+    font-family: sans-serif ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.learn3{
+    /* border: 1px solid yellow; */
+   height: 60px;
+   width: 140px;
+   margin-left: 2.5rem;
+   margin-top: 2rem;
+   background-color: #336eeb;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.learn3 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.learn3:hover{
+    margin-top: 1.5rem;
+    transition: 0.5s;
 }
