@@ -9,7 +9,13 @@
     }
 
     .header{
-        height: 100px;
+        height: 80px;
+        width: 100%;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        /* z-index: 1000; */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.850);
     }
 
     .headerpic{
@@ -30,6 +36,7 @@
         border-radius: 20px;
         width: 90%;
         height: 560px;
+        margin-top: 1rem;
     }
 
     .row1 .header1{
@@ -55,6 +62,14 @@
         height: 50px;
         /* border: 1px solid blue; */
         margin-top: 2rem;
+    }
+    
+    .fair{
+        display: none;
+    }
+
+    .fair2{
+        display: none;
     }
 
     .subrow1{
@@ -119,7 +134,7 @@
 
     .row2{
         margin-top: 1rem;
-        height: 1500px;
+        height: 1120px;
     }
 
     .box{
@@ -166,8 +181,9 @@
 
     .two{
         margin-top: 2rem;
-        height: 60px;
+        /* height: 65px; */
         width: 80px;
+        overflow-y: hidden;
     }
 
     .two h3{
@@ -322,4 +338,369 @@
         font-size: 12px;
     }
 
+    .products{
+        width: 90%;
+        height: 68px;
+        margin-top: 6rem;
+    }
+
+    .products h4{
+        font-size: 25px;
+    }
+
+    .squares{
+        margin-left: 0rem;
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .personal{
+        width: 90%;
+        height: 700px;
+        border-radius: 10px;
+        overflow-y: hidden;
+    }
+
+    .ploans{
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        height: 25px;
+        overflow-y: hidden;
+    }
+
+    .ploans h3{
+        font-size: 25px;
+    }
+
+    .personal .you{
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        width: 315px;
+        height: 80px;
+    }
+
+    .personal .you p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .learn1{
+        height: 400px;
+    }
+
+    .personal .learn1 a{
+        height: 50px;
+        width: 170px;
+        border-radius: 5px;
+        overflow-y: hidden;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+
+    .learn1 .pic{
+        margin-top:9rem;
+        /* rotate: 0deg; */
+        /* margin-left: 5rem; */
+        width: 250px;
+    }
+
+    .business{
+        display: none;
+    }
+
+    .fairlock{
+        display: none;
+    }
+
+    .subrow3{
+        width: 95%;
+        height: 200px;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    .check{
+        width: 90%;
+        height: 90px;
+    }
+
+    .check p{
+        font-size: 20px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .subrow3 a{
+        margin-top: -2rem;
+    }
+
+    .our{
+        border: none;
+    }
+
+    .investor{
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        border: none;
+    }
+
+    .investor .pic1{
+        width: 65%;
+    }
+
+    .investor .pic1 img{
+        height: 40px;
+    }
+
+    .investor .pic2{
+        width: 80%;
+    }
+
+    .investor .pic2 img{
+        height: 35px;
+    }
+
+    .investor .pic3{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .investor .pic3 img{
+        height: 40px;
+    }
+
+    .row4{
+        margin-top: 35rem;
+        height: 815px;
+    }
+
+    .testimonials{
+        width: 200px;
+        height: 35px;
+    }
+
+    .testimonials h2{
+        font-size: 25px;
+    }
+
+    .testimony{
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        margin-top: 3rem;
+    }
+
+    .list{
+        width: 374px;
+        height: 100px;
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 1rem;
+    }
+
+    .name{
+        width: 300px;
+        height: 60px;
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+        flex-shrink: 0;
+    }
+
+    .name:nth-child(1){
+        margin-left: 0rem;
+    }
+
+    .text{
+        width: 93%;
+        height: 580px;
+        margin-left: 0rem;
+        align-self: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .person{
+        width: 100%;
+        height: 130px;
+    }
+
+    .per{
+        width: 80%;
+        height: 75px;
+    }
+
+    .talk{
+        width: 89%;
+        height: 360px;
+        margin-left: 0rem;
+        overflow-y: hidden;
+        margin-top: 2rem;
+    }
+
+    .row5{
+
+    }
+
+    .latest{
+        margin-left: 1rem;
+        margin-top: 3rem;
+        width: 250px;
+        height: 35px;
+    }
+
+    .latest h1{
+        font-size: 25px;
+    }
+
+    .latest p{
+        font-size: 15px;
+    }
+
+    .blogs{
+        height: 652px;
+        padding-left: 1rem;
+    }
+
+    .news{
+        width: 95%;
+    }
+
+    .news .pic{
+        width: 90%;
+    }
+
+    .difference{
+        height: 90px;
+    }
+
+    .row6{
+        margin-top: 2rem;
+        flex-direction: column;
+        height: 950px;
+        justify-content: initial;
+    }
+
+    .row6 .photo{
+        margin-top: 1rem;
+        margin-left: 0rem;
+        width: 150px;
+        height: 350px;
+    }
+
+    .row6 .ready{
+        width: 100%;
+        height: 700px;
+        margin-top: 5rem;
+    }
+
+    .row6 .level{
+        height: 130px;
+        margin-left: 1rem;
+        line-height: 45px;
+    }
+
+    .row6 .google{
+        margin-left: 1rem;
+    }
+
+    .row6 .QR2{
+        width: 85%;
+        margin-top: 3rem;
+        flex-direction: column;
+        align-items: initial;
+        margin-left: 1rem;
+        height: 230px;
+    }
+
+    .row6 .scan2{
+        font-size: 15.5px;
+        width: 240px;
+        height: 1000px;
+    }
+
+    .row7{
+        height: 1000px;
+    }
+
+    .menu{
+        margin-left: 1rem;
+        margin-top: 2.5rem;
+        width: 100px;
+    }
+
+    .color{
+        flex-direction: column;
+        justify-content: initial;
+        height: 445px;
+    }
+
+    .links{
+        flex-direction: column;
+        margin-right: 0rem;
+        margin-left: 1rem;
+        justify-content: initial;
+        width: 200px;
+        height: 445px;
+    }
+
+    .list{
+        width: 100%;
+        height: 205px;
+        margin-left: 0rem;
+        overflow-y: hidden;
+    }
+
+    .list:nth-child(1){
+        height: 135px;
+    }
+
+    .list:last-of-type{
+        height: 105px;
+    }
+
+    .list ul li{
+        margin-left: 0rem;
+    }
+
+    .apple{
+        /* display: none; */
+        align-self: initial;
+        margin-top: 13rem;
+        margin-left: 1rem;
+    }
+
+    .terms{
+        margin-top: 0rem;
+        flex-direction: column;
+        height: 192px;
+        justify-content: initial;
+    }
+    .condition{
+        height: 170px;
+        width: 300px;
+        margin-left: 1rem;
+    }
+
+    .condition ul{
+        justify-content: initial;
+        flex-direction: column;
+    }
+
+    .condition ul li{
+        margin-top: 1rem;
+    }
+
+    .face{
+        margin-top: 10rem;
+        margin-left: 1rem;
+    }
+
+    .all{
+        margin-left: 1rem;
+        margin-top: 13rem;
+    }
 }
