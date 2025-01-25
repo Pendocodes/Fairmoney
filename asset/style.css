@@ -3,22 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.header{
+    width: 100%;
+    height: 130px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position:fixed;
+    margin-top: -200px;
+    z-index: 999999999;
+}
 .container{
     width: 100%;
     height: auto;
     /* border: 2px solid green; */
 }
 
-.header{
-    width: 100%;
-    height: 130px;
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-}
+
 
 .headerpic{
     /* border: 1px solid blue; */
@@ -75,6 +78,7 @@
     border-radius: 50px;
     background-color: rgba(173, 204, 209, 0.253);
     overflow-y: hidden;
+    margin-top: 200px;
 }
 
 .row1 .header1{
